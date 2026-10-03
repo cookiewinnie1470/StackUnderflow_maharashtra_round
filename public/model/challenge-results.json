@@ -1,0 +1,303 @@
+{
+  "overall_selective": {
+    "accepted": 18,
+    "correct": 16,
+    "accuracy": 0.8888888888888888
+  },
+  "total": 34,
+  "labelled": 21,
+  "raw_accuracy": 0.7619047619047619,
+  "system": {
+    "accepted": 16,
+    "correct": 16,
+    "coverage": 0.7619047619047619,
+    "accuracy": 1
+  },
+  "unknown": {
+    "total": 7,
+    "rejected": 5
+  },
+  "ambiguous": {
+    "total": 6,
+    "rejected": 6
+  },
+  "review_status": "Development stress set authored by the implementation agent; used to identify training-coverage gaps; independent peer review pending",
+  "challenge_sha256": "8ed834eb9039d01bf1ddb83ff7176c5e69c40a48cdd53654f059a8e8cb41a63f",
+  "failures": [
+    {
+      "id": "distribution-plain",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.3569329757662554
+    },
+    {
+      "id": "distribution-reordered",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.3939427451716384
+    },
+    {
+      "id": "distribution-complex",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.7304332887770013
+    },
+    {
+      "id": "unlike-three",
+      "expected": "unlike_terms",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.6020390239988724
+    },
+    {
+      "id": "correct-expansion",
+      "expected": "correct",
+      "predicted": "negative_product",
+      "status": "insufficient",
+      "score": 0.6920733444967178
+    }
+  ],
+  "results": [
+    {
+      "id": "distribution-plain",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.3569329757662554
+    },
+    {
+      "id": "distribution-reordered",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.3939427451716384
+    },
+    {
+      "id": "distribution-complex",
+      "expected": "distribution",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.7304332887770013
+    },
+    {
+      "id": "product-pair-a",
+      "expected": "negative_product",
+      "predicted": "negative_product",
+      "status": "likely",
+      "score": 0.632621170564551
+    },
+    {
+      "id": "product-short",
+      "expected": "negative_product",
+      "predicted": "negative_product",
+      "status": "likely",
+      "score": 0.7401085320177345
+    },
+    {
+      "id": "product-typo",
+      "expected": "negative_product",
+      "predicted": "negative_product",
+      "status": "likely",
+      "score": 0.878198894463328
+    },
+    {
+      "id": "scope-pair-b",
+      "expected": "negative_scope",
+      "predicted": "negative_scope",
+      "status": "likely",
+      "score": 0.7957557186599884
+    },
+    {
+      "id": "scope-single",
+      "expected": "negative_scope",
+      "predicted": "negative_scope",
+      "status": "likely",
+      "score": 0.6810973506932761
+    },
+    {
+      "id": "scope-nested",
+      "expected": "negative_scope",
+      "predicted": "negative_scope",
+      "status": "likely",
+      "score": 0.6410370610740185
+    },
+    {
+      "id": "unlike-plain",
+      "expected": "unlike_terms",
+      "predicted": "unlike_terms",
+      "status": "likely",
+      "score": 0.5947092673622104
+    },
+    {
+      "id": "unlike-reordered",
+      "expected": "unlike_terms",
+      "predicted": "unlike_terms",
+      "status": "likely",
+      "score": 0.5741023999135891
+    },
+    {
+      "id": "unlike-three",
+      "expected": "unlike_terms",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.6020390239988724
+    },
+    {
+      "id": "inverse-plain",
+      "expected": "inverse",
+      "predicted": "inverse",
+      "status": "likely",
+      "score": 0.4981643955189526
+    },
+    {
+      "id": "inverse-coefficient",
+      "expected": "inverse",
+      "predicted": "inverse",
+      "status": "likely",
+      "score": 0.6544151126625853
+    },
+    {
+      "id": "inverse-transfer",
+      "expected": "inverse",
+      "predicted": "inverse",
+      "status": "likely",
+      "score": 0.6061666471837134
+    },
+    {
+      "id": "balance-plain",
+      "expected": "balance",
+      "predicted": "balance",
+      "status": "likely",
+      "score": 0.8472704615951279
+    },
+    {
+      "id": "balance-coefficient",
+      "expected": "balance",
+      "predicted": "balance",
+      "status": "likely",
+      "score": 0.7241919841445315
+    },
+    {
+      "id": "balance-transfer",
+      "expected": "balance",
+      "predicted": "balance",
+      "status": "likely",
+      "score": 0.8744284345152276
+    },
+    {
+      "id": "correct-expansion",
+      "expected": "correct",
+      "predicted": "negative_product",
+      "status": "insufficient",
+      "score": 0.6920733444967178
+    },
+    {
+      "id": "correct-equality",
+      "expected": "correct",
+      "predicted": "correct",
+      "status": "consistent",
+      "score": 0.746153278039881
+    },
+    {
+      "id": "correct-unlike",
+      "expected": "correct",
+      "predicted": "correct",
+      "status": "consistent",
+      "score": 0.703662513495767
+    },
+    {
+      "id": "ambiguous-answer-only",
+      "expected": "ambiguous",
+      "predicted": "negative_scope",
+      "status": "insufficient",
+      "score": 0.5752898029535733
+    },
+    {
+      "id": "ambiguous-no-reason",
+      "expected": "ambiguous",
+      "predicted": "negative_scope",
+      "status": "insufficient",
+      "score": 0.7122437122075979
+    },
+    {
+      "id": "ambiguous-guess",
+      "expected": "ambiguous",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.6752364534674395
+    },
+    {
+      "id": "ambiguous-one-sided-answer",
+      "expected": "ambiguous",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.40696193721256757
+    },
+    {
+      "id": "ambiguous-lucky",
+      "expected": "ambiguous",
+      "predicted": "negative_product",
+      "status": "insufficient",
+      "score": 0.42739941071799875
+    },
+    {
+      "id": "ambiguous-conflict",
+      "expected": "ambiguous",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.45823452832587747
+    },
+    {
+      "id": "unknown-fractions",
+      "expected": "unknown",
+      "predicted": "inverse",
+      "status": "likely",
+      "score": 0.5392826439443682
+    },
+    {
+      "id": "unknown-reversed-subtraction",
+      "expected": "unknown",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.5673946680105311
+    },
+    {
+      "id": "unknown-left-to-right",
+      "expected": "unknown",
+      "predicted": "unlike_terms",
+      "status": "insufficient",
+      "score": 0.4314173751005121
+    },
+    {
+      "id": "unknown-roman-x",
+      "expected": "unknown",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.6655726285756265
+    },
+    {
+      "id": "unknown-negative-addition",
+      "expected": "unknown",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.8989172785911567
+    },
+    {
+      "id": "unknown-decimal",
+      "expected": "unknown",
+      "predicted": "correct",
+      "status": "insufficient",
+      "score": 0.6037244103083332
+    },
+    {
+      "id": "unknown-equal-means-add",
+      "expected": "unknown",
+      "predicted": "inverse",
+      "status": "likely",
+      "score": 0.6255869494611446
+    }
+  ]
+}

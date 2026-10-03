@@ -1,0 +1,31 @@
+{
+  "source": "https://github.com/nancyotero-projects/math-misconceptions",
+  "license": "MIT; see MAE-LICENSE",
+  "imported_training_rows": 0,
+  "use": "Taxonomy/reference audit only; our rows are explicitly authored/generated.",
+  "checks": [
+    {
+      "id": "MaE03",
+      "example": 3,
+      "question": "5^-2=?",
+      "source_answer": "0.05",
+      "verified_answer": "1/25 = 0.04",
+      "action": "excluded; incorrect source answer"
+    }
+  ],
+  "source_rows": 220,
+  "reference_topics": [
+    {
+      "id": "MaE19",
+      "description": "when students confuse signs of operations and signs of numbers, inappropriately applying the rule \"two negatives make a positive\"."
+    },
+    {
+      "id": "MaE51",
+      "description": "when students misunderstand the equal sign as indicating \"the answer is\" rather than representing a relationship between quantities"
+    },
+    {
+      "id": "MaE55",
+      "description": "when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x"
+    }
+  ]
+}

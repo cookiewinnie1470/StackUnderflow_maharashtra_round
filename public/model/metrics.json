@@ -1,0 +1,568 @@
+{
+  "model_version": "relearn-lr-v1-21fc2d14d6",
+  "dataset": {
+    "total": 700,
+    "train": 490,
+    "validation": 70,
+    "test": 140,
+    "provenance": "700 synthetic responses from authored problem and reasoning families; no real learner data",
+    "split_policy": "Disjoint problem-form and reasoning-template families: train 0\u20136; validation 7; test 8\u20139. Values and paraphrases remain synthetic.",
+    "peer_review": "pending"
+  },
+  "labels": [
+    "distribution",
+    "negative_product",
+    "negative_scope",
+    "unlike_terms",
+    "inverse",
+    "balance",
+    "correct"
+  ],
+  "label_names": [
+    "Distribute to every term",
+    "Multiplying two negatives",
+    "A minus applies to the whole group",
+    "Combine only like terms",
+    "Choose the inverse operation",
+    "Keep both sides balanced",
+    "Consistent reasoning"
+  ],
+  "full_model": {
+    "n": 140,
+    "accuracy": 0.9785714285714285,
+    "macro_f1": 0.9784502110083506,
+    "per_class": {
+      "distribution": {
+        "precision": 1.0,
+        "recall": 0.85,
+        "f1-score": 0.918918918918919,
+        "support": 20.0
+      },
+      "negative_product": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "negative_scope": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "unlike_terms": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "inverse": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "balance": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "correct": {
+        "precision": 0.8695652173913043,
+        "recall": 1.0,
+        "f1-score": 0.9302325581395349,
+        "support": 20.0
+      },
+      "accuracy": 0.9785714285714285,
+      "macro avg": {
+        "precision": 0.9813664596273293,
+        "recall": 0.9785714285714285,
+        "f1-score": 0.9784502110083506,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.9813664596273293,
+        "recall": 0.9785714285714285,
+        "f1-score": 0.9784502110083506,
+        "support": 140.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    ]
+  },
+  "answer_only": {
+    "n": 140,
+    "accuracy": 0.7071428571428572,
+    "macro_f1": 0.6517204269225834,
+    "per_class": {
+      "distribution": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 20.0
+      },
+      "negative_product": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 20.0
+      },
+      "negative_scope": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 20.0
+      },
+      "unlike_terms": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "inverse": {
+        "precision": 0.6060606060606061,
+        "recall": 1.0,
+        "f1-score": 0.7547169811320755,
+        "support": 20.0
+      },
+      "balance": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1-score": 0.5714285714285714,
+        "support": 20.0
+      },
+      "correct": {
+        "precision": 0.7894736842105263,
+        "recall": 0.75,
+        "f1-score": 0.7692307692307693,
+        "support": 20.0
+      },
+      "accuracy": 0.7071428571428572,
+      "macro avg": {
+        "precision": 0.6707906128958759,
+        "recall": 0.7071428571428572,
+        "f1-score": 0.6517204269225833,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.670790612895876,
+        "recall": 0.7071428571428572,
+        "f1-score": 0.6517204269225833,
+        "support": 140.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12,
+        8,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        15
+      ]
+    ]
+  },
+  "validation_selection": {
+    "threshold": 0.35,
+    "margin": 0.12,
+    "accepted": 69,
+    "precision": 1.0,
+    "coverage": 0.9857142857142858
+  },
+  "test_selective": {
+    "coverage": 0.9642857142857143,
+    "accepted": 135,
+    "accuracy": 0.9851851851851852
+  },
+  "environment": {
+    "python": "3.14.7",
+    "sklearn": "1.7.2"
+  },
+  "pilot": {
+    "status": "not_run",
+    "participants": 0
+  },
+  "limitations": [
+    "Synthetic template evaluation is not a classroom effectiveness study.",
+    "The diagnostic model can overfit familiar language; model scores are not certainty.",
+    "Unseen misconception labels cannot be named by this fixed-class model.",
+    "Source material and teaching activities require independent human review."
+  ],
+  "same_answer_pairs": {
+    "pairs": 20,
+    "full_model": {
+      "n": 40,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "distribution": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "negative_product": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "negative_scope": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "unlike_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "inverse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "balance": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "correct": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 0.2857142857142857,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.2857142857142857,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "answer_only": {
+      "n": 40,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "per_class": {
+        "distribution": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "negative_product": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "negative_scope": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 20.0
+        },
+        "unlike_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "inverse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "balance": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "correct": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.07142857142857142,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.09523809523809523,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 40.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "provenance": "Synthetic held-out template families, not real learner observations"
+  }
+}

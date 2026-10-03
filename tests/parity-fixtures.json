@@ -1,0 +1,1012 @@
+[
+  {
+    "attempt": {
+      "id": "distribution-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "distribution-reason-8",
+      "question": "Simplify 2*(x + 26)+1",
+      "answer": "2*x + 27",
+      "steps": [
+        "2*x + (26) + 1",
+        "2*x + 27"
+      ],
+      "explanation": "The outer factor changes one piece of the group. I did not apply it to the number.",
+      "label": "distribution",
+      "correct_answer": "2*x + 53",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.022071005971204583,
+      0.22776835855319838,
+      0.7002350846277764,
+      0.011526220392992628,
+      0.008369310885419761,
+      0.011280212398927585,
+      0.01874980717048057
+    ]
+  },
+  {
+    "attempt": {
+      "id": "distribution-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "distribution-reason-8",
+      "question": "Simplify 2*(x + 31)+6",
+      "answer": "2*x + 37",
+      "steps": [
+        "2*x + (31) + 6",
+        "2*x + 37"
+      ],
+      "explanation": "The outer factor changes one piece of the group. I did not apply it to the number.",
+      "label": "distribution",
+      "correct_answer": "2*x + 68",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.021917348749174673,
+      0.26223410854300305,
+      0.6647884614166087,
+      0.013109092911291394,
+      0.007448192841542802,
+      0.012092539611135942,
+      0.018410255927243328
+    ]
+  },
+  {
+    "attempt": {
+      "id": "distribution-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "distribution-reason-9",
+      "question": "Simplify 1+2*(29 + x)",
+      "answer": "2*x + 30",
+      "steps": [
+        "2*x + (29) + 1",
+        "2*x + 30"
+      ],
+      "explanation": "Multiplication affects the variable piece only; the separate constant is copied.",
+      "label": "distribution",
+      "correct_answer": "2*x + 59",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.016208292570436517,
+      0.3588276934282878,
+      0.5602216259602532,
+      0.020762870797795523,
+      0.01130366258440521,
+      0.010744687751725828,
+      0.02193116690709586
+    ]
+  },
+  {
+    "attempt": {
+      "id": "distribution-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "distribution-reason-9",
+      "question": "Simplify 6+2*(34 + x)",
+      "answer": "2*x + 40",
+      "steps": [
+        "2*x + (34) + 6",
+        "2*x + 40"
+      ],
+      "explanation": "Multiplication affects the variable piece only; the separate constant is copied.",
+      "label": "distribution",
+      "correct_answer": "2*x + 74",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.014434329881263001,
+      0.5561322809793146,
+      0.3601917895666828,
+      0.024826370958981617,
+      0.010395212588766179,
+      0.014376789162273808,
+      0.019643226862718147
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_product-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "negative_product-reason-8",
+      "question": "Simplify (-2)*(x - 26)+1",
+      "answer": "-2*x - 51",
+      "steps": [
+        "(-2)*(1*x)+(-2)*(-26)+1",
+        "-2*x - 51"
+      ],
+      "explanation": "I used the outside factor twice. With two negative factors I chose a negative product.",
+      "label": "negative_product",
+      "correct_answer": "53 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.003173263753990119,
+      0.02073126975356007,
+      0.004300627500846309,
+      0.002370858934959868,
+      0.9492348641585614,
+      0.016973357576248658,
+      0.0032157583218335958
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_product-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "negative_product-reason-8",
+      "question": "Simplify (-2)*(x - 31)+6",
+      "answer": "-2*x - 56",
+      "steps": [
+        "(-2)*(1*x)+(-2)*(-31)+6",
+        "-2*x - 56"
+      ],
+      "explanation": "I used the outside factor twice. With two negative factors I chose a negative product.",
+      "label": "negative_product",
+      "correct_answer": "68 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.0021539176585582756,
+      0.014025301337743488,
+      0.004049132474306986,
+      0.0018874667274104628,
+      0.9608579530055325,
+      0.01470662047801055,
+      0.0023196083184377886
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_product-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "negative_product-reason-9",
+      "question": "Simplify 1+(-2)*(-29 + x)",
+      "answer": "-2*x - 57",
+      "steps": [
+        "(-2)*(1*x)+(-2)*(-29)+1",
+        "-2*x - 57"
+      ],
+      "explanation": "I treated the signs in negative multiplication like this: minus times minus is minus.",
+      "label": "negative_product",
+      "correct_answer": "59 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.003102579211006073,
+      0.03202261661533712,
+      0.006656615860005951,
+      0.00306967244510026,
+      0.919599280792646,
+      0.03170546507032177,
+      0.0038437700055828808
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_product-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "negative_product-reason-9",
+      "question": "Simplify 6+(-2)*(-34 + x)",
+      "answer": "-2*x - 62",
+      "steps": [
+        "(-2)*(1*x)+(-2)*(-34)+6",
+        "-2*x - 62"
+      ],
+      "explanation": "I treated the signs in negative multiplication like this: minus times minus is minus.",
+      "label": "negative_product",
+      "correct_answer": "74 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.00246834804041089,
+      0.021364957294481443,
+      0.0058871446093225815,
+      0.003310126621954287,
+      0.9246271898133528,
+      0.03918203367063785,
+      0.0031601999498401777
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_scope-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "negative_scope-reason-8",
+      "question": "Simplify (-2)*(x - 26)+1",
+      "answer": "-2*x - 51",
+      "steps": [
+        "-(2*x-52)+1",
+        "-2*x - 51"
+      ],
+      "explanation": "I expanded with the positive multiplier, then negated the first part but not the rest.",
+      "label": "negative_scope",
+      "correct_answer": "53 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.006647438644676145,
+      0.07215569010610481,
+      0.01712540813002265,
+      0.005008523918534486,
+      0.06944854607721966,
+      0.8233139220696973,
+      0.006300471053744845
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_scope-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "negative_scope-reason-8",
+      "question": "Simplify (-2)*(x - 31)+6",
+      "answer": "-2*x - 56",
+      "steps": [
+        "-(2*x-62)+6",
+        "-2*x - 56"
+      ],
+      "explanation": "I expanded with the positive multiplier, then negated the first part but not the rest.",
+      "label": "negative_scope",
+      "correct_answer": "68 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.0037659575210896743,
+      0.04088273603155495,
+      0.016038453440928788,
+      0.0033130302490992198,
+      0.05369840312025862,
+      0.8784365145973453,
+      0.0038649050397235284
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_scope-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "negative_scope-reason-9",
+      "question": "Simplify 1+(-2)*(-29 + x)",
+      "answer": "-2*x - 57",
+      "steps": [
+        "-(2*x-58)+1",
+        "-2*x - 57"
+      ],
+      "explanation": "The minus outside the group applies to the variable term only; the second sign survives.",
+      "label": "negative_scope",
+      "correct_answer": "59 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.008231724930480643,
+      0.061150853235710775,
+      0.027795622049769122,
+      0.006440412227468441,
+      0.08567419683641812,
+      0.8030169359511232,
+      0.007690254769029689
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_scope-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "negative_scope-reason-9",
+      "question": "Simplify 6+(-2)*(-34 + x)",
+      "answer": "-2*x - 62",
+      "steps": [
+        "-(2*x-68)+6",
+        "-2*x - 62"
+      ],
+      "explanation": "The minus outside the group applies to the variable term only; the second sign survives.",
+      "label": "negative_scope",
+      "correct_answer": "74 - 2*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.005720111341791906,
+      0.02971147189016532,
+      0.02243957502681363,
+      0.005284800089815431,
+      0.062330326773701566,
+      0.8691459101254838,
+      0.005367804752228356
+    ]
+  },
+  {
+    "attempt": {
+      "id": "unlike_terms-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "unlike_terms-reason-8",
+      "question": "Simplify 1+2*x+26",
+      "answer": "29*x",
+      "steps": [
+        "(2+27)*x",
+        "29*x"
+      ],
+      "explanation": "The constant can join the variable coefficient, so I collected them together.",
+      "label": "unlike_terms",
+      "correct_answer": "2*x + 27",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.020344502794370157,
+      0.10295271566449841,
+      0.013864728165124025,
+      0.01155156535743613,
+      0.004027252273462833,
+      0.007221775853756131,
+      0.8400374598913523
+    ]
+  },
+  {
+    "attempt": {
+      "id": "unlike_terms-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "unlike_terms-reason-8",
+      "question": "Simplify 6+2*x+31",
+      "answer": "39*x",
+      "steps": [
+        "(2+37)*x",
+        "39*x"
+      ],
+      "explanation": "The constant can join the variable coefficient, so I collected them together.",
+      "label": "unlike_terms",
+      "correct_answer": "2*x + 37",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.019119105898986317,
+      0.09956814108227963,
+      0.013869629594885236,
+      0.010855459687710328,
+      0.003370349008463946,
+      0.0069310654913010295,
+      0.8462862492363736
+    ]
+  },
+  {
+    "attempt": {
+      "id": "unlike_terms-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "unlike_terms-reason-9",
+      "question": "Simplify 29+(2*x)+1",
+      "answer": "32*x",
+      "steps": [
+        "(2+30)*x",
+        "32*x"
+      ],
+      "explanation": "I treated the number without a letter as another count of x.",
+      "label": "unlike_terms",
+      "correct_answer": "2*x + 30",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.0596965491287425,
+      0.13707520830811684,
+      0.040753973639444586,
+      0.016085788610254437,
+      0.023538008751732422,
+      0.012400352603610033,
+      0.7104501189580992
+    ]
+  },
+  {
+    "attempt": {
+      "id": "unlike_terms-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "unlike_terms-reason-9",
+      "question": "Simplify 34+(2*x)+6",
+      "answer": "42*x",
+      "steps": [
+        "(2+40)*x",
+        "42*x"
+      ],
+      "explanation": "I treated the number without a letter as another count of x.",
+      "label": "unlike_terms",
+      "correct_answer": "2*x + 40",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.056080990265155055,
+      0.1803182592603826,
+      0.04403396606481647,
+      0.02026493772737793,
+      0.02566297684576019,
+      0.015565538644145368,
+      0.6580733311923624
+    ]
+  },
+  {
+    "attempt": {
+      "id": "inverse-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "inverse-reason-8",
+      "question": "Solve 2*x+25+1=32",
+      "answer": "x=58/2",
+      "steps": [
+        "2*x=58",
+        "x=58/2"
+      ],
+      "explanation": "Undoing the sum means adding its constant to the result before dividing.",
+      "label": "inverse",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.14629594945491675,
+      0.05877203046917758,
+      0.01174789428639284,
+      0.7514240984912396,
+      0.004949129567719662,
+      0.007139257401964807,
+      0.019671640328588865
+    ]
+  },
+  {
+    "attempt": {
+      "id": "inverse-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "inverse-reason-8",
+      "question": "Solve 2*x+25+6=47",
+      "answer": "x=78/2",
+      "steps": [
+        "2*x=78",
+        "x=78/2"
+      ],
+      "explanation": "Undoing the sum means adding its constant to the result before dividing.",
+      "label": "inverse",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.11418910561673692,
+      0.10207378567314375,
+      0.014044229617523577,
+      0.732242448260358,
+      0.005735414533683084,
+      0.009010626980187748,
+      0.022704389318366835
+    ]
+  },
+  {
+    "attempt": {
+      "id": "inverse-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "inverse-reason-9",
+      "question": "Solve 1+2*x+28=35",
+      "answer": "x=64/2",
+      "steps": [
+        "2*x=64",
+        "x=64/2"
+      ],
+      "explanation": "I isolate the variable by transferring the added value with the same sign.",
+      "label": "inverse",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.1384195156129061,
+      0.06094057675270591,
+      0.008943452542266032,
+      0.7652339559930488,
+      0.0033571013316290375,
+      0.00845682147944372,
+      0.014648576288000422
+    ]
+  },
+  {
+    "attempt": {
+      "id": "inverse-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "inverse-reason-9",
+      "question": "Solve 6+2*x+28=50",
+      "answer": "x=84/2",
+      "steps": [
+        "2*x=84",
+        "x=84/2"
+      ],
+      "explanation": "I isolate the variable by transferring the added value with the same sign.",
+      "label": "inverse",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.13638748456518676,
+      0.13402703487206297,
+      0.01305510004949795,
+      0.6759863857275673,
+      0.004512374987477368,
+      0.013577259720250407,
+      0.022454360077957147
+    ]
+  },
+  {
+    "attempt": {
+      "id": "balance-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "balance-reason-8",
+      "question": "Solve 2*x+25+1=32",
+      "answer": "x=32/2",
+      "steps": [
+        "2*x=32",
+        "x=32/2"
+      ],
+      "explanation": "I cancelled a term on one side of equality and left the opposite side alone.",
+      "label": "balance",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.8124547225724487,
+      0.058638870893442274,
+      0.012983379368117946,
+      0.08129858979526942,
+      0.0038145040884300734,
+      0.011969148801657978,
+      0.01884078448063347
+    ]
+  },
+  {
+    "attempt": {
+      "id": "balance-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "balance-reason-8",
+      "question": "Solve 2*x+25+6=47",
+      "answer": "x=47/2",
+      "steps": [
+        "2*x=47",
+        "x=47/2"
+      ],
+      "explanation": "I cancelled a term on one side of equality and left the opposite side alone.",
+      "label": "balance",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.8463704840247427,
+      0.042601176646804066,
+      0.011438068952018968,
+      0.07281471022882607,
+      0.0029568037189499474,
+      0.009680204707005811,
+      0.014138551721652586
+    ]
+  },
+  {
+    "attempt": {
+      "id": "balance-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "balance-reason-9",
+      "question": "Solve 1+2*x+28=35",
+      "answer": "x=35/2",
+      "steps": [
+        "2*x=35",
+        "x=35/2"
+      ],
+      "explanation": "I removed a quantity from the variable side without matching that change on the other side.",
+      "label": "balance",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.9429494734446555,
+      0.01729118116881097,
+      0.0032904785266205804,
+      0.02762587228641528,
+      0.0013805382670165692,
+      0.0029195619931331887,
+      0.004542894313347846
+    ]
+  },
+  {
+    "attempt": {
+      "id": "balance-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "balance-reason-9",
+      "question": "Solve 6+2*x+28=50",
+      "answer": "x=50/2",
+      "steps": [
+        "2*x=50",
+        "x=50/2"
+      ],
+      "explanation": "I removed a quantity from the variable side without matching that change on the other side.",
+      "label": "balance",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.9327336850599948,
+      0.020349632678569634,
+      0.003756857822721843,
+      0.033051806846087585,
+      0.0015012066252070287,
+      0.003608149566793067,
+      0.004998661400625633
+    ]
+  },
+  {
+    "attempt": {
+      "id": "correct-08-00",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "correct-distribution-reason-8",
+      "question": "Simplify 2*(x + 26)+1",
+      "answer": "2*x + 53",
+      "steps": [
+        "2*x + 53"
+      ],
+      "explanation": "All parts of the group are multiplied by the factor.",
+      "label": "correct",
+      "correct_answer": "2*x + 53",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.010973783418699146,
+      0.7727701725784131,
+      0.1815926525908316,
+      0.010975613588734967,
+      0.009030334503058212,
+      0.00429451118237532,
+      0.010362932137887696
+    ]
+  },
+  {
+    "attempt": {
+      "id": "correct-08-05",
+      "family_id": "family-8",
+      "problem_family": "form-8",
+      "reasoning_family": "correct-balance-reason-8",
+      "question": "Solve 2*x+25+6=47",
+      "answer": "x=8",
+      "steps": [
+        "x=8"
+      ],
+      "explanation": "Both sides receive the same subtraction, and then the same division.",
+      "label": "correct",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.01628750176676195,
+      0.9553681782551343,
+      0.002739688589653097,
+      0.016995489568831536,
+      0.001249428710244979,
+      0.0034534644266785205,
+      0.0039062486826958024
+    ]
+  },
+  {
+    "attempt": {
+      "id": "correct-09-00",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "correct-distribution-reason-9",
+      "question": "Simplify 1+2*(29 + x)",
+      "answer": "2*x + 59",
+      "steps": [
+        "2*x + 59"
+      ],
+      "explanation": "I distribute across the entire bracket and then add the extra constant.",
+      "label": "correct",
+      "correct_answer": "2*x + 59",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.01493554156598827,
+      0.6049149121204825,
+      0.25032317065026694,
+      0.05607633040915957,
+      0.009273018085661151,
+      0.02272428643932767,
+      0.04175274072911381
+    ]
+  },
+  {
+    "attempt": {
+      "id": "correct-09-05",
+      "family_id": "family-9",
+      "problem_family": "form-9",
+      "reasoning_family": "correct-balance-reason-9",
+      "question": "Solve 6+2*x+28=50",
+      "answer": "x=8",
+      "steps": [
+        "x=8"
+      ],
+      "explanation": "I maintain equality by performing equal operations on the left and right.",
+      "label": "correct",
+      "correct_answer": "x=8",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "test"
+    },
+    "probabilities": [
+      0.05587818988180522,
+      0.8419893968264499,
+      0.007886788522691727,
+      0.0692784390724192,
+      0.003982940770672117,
+      0.006376185899383031,
+      0.014608059026578666
+    ]
+  },
+  {
+    "attempt": {
+      "id": "distribution-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "distribution-reason-7",
+      "question": "Simplify (2*x + 23)*2",
+      "answer": "4*x + 23",
+      "steps": [
+        "4*x + (23) + 0",
+        "4*x + 23"
+      ],
+      "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+      "label": "distribution",
+      "correct_answer": "4*x + 46",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.01831862478885599,
+      0.06877218639342282,
+      0.8860655747521345,
+      0.00665015824827293,
+      0.0038270150357837137,
+      0.004573363865269594,
+      0.011793076916260458
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_product-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "negative_product-reason-7",
+      "question": "Simplify (2*x - 23)*(-2)",
+      "answer": "-4*x - 46",
+      "steps": [
+        "(-2)*(2*x)+(-2)*(-23)+0",
+        "-4*x - 46"
+      ],
+      "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+      "label": "negative_product",
+      "correct_answer": "46 - 4*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.001990696788124886,
+      0.02340468881584272,
+      0.004891257409254939,
+      0.002540552831562698,
+      0.9399228995813428,
+      0.023819008846904858,
+      0.0034308957269670896
+    ]
+  },
+  {
+    "attempt": {
+      "id": "negative_scope-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "negative_scope-reason-7",
+      "question": "Simplify (2*x - 23)*(-2)",
+      "answer": "-4*x - 46",
+      "steps": [
+        "-(4*x-46)+0",
+        "-4*x - 46"
+      ],
+      "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+      "label": "negative_scope",
+      "correct_answer": "46 - 4*x",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.008672608564020162,
+      0.03809380470119228,
+      0.03188821201134629,
+      0.007897897992803422,
+      0.12725189643331328,
+      0.7784683478876828,
+      0.007727232409641719
+    ]
+  },
+  {
+    "attempt": {
+      "id": "unlike_terms-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "unlike_terms-reason-7",
+      "question": "Simplify 2*x+22+1",
+      "answer": "25*x",
+      "steps": [
+        "(2+23)*x",
+        "25*x"
+      ],
+      "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+      "label": "unlike_terms",
+      "correct_answer": "2*x + 23",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.009941224334700058,
+      0.07090868227912746,
+      0.033855709071009835,
+      0.012927226009523696,
+      0.0059579220954408705,
+      0.010051051483696796,
+      0.8563581847265013
+    ]
+  },
+  {
+    "attempt": {
+      "id": "inverse-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "inverse-reason-7",
+      "question": "Solve 1*x+x+23=29",
+      "answer": "x=52/2",
+      "steps": [
+        "2*x=52",
+        "x=52/2"
+      ],
+      "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+      "label": "inverse",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.18816331770516811,
+      0.0984493315520404,
+      0.010244497709137147,
+      0.6650598039265326,
+      0.00631698718078768,
+      0.008332402573812478,
+      0.023433659352521532
+    ]
+  },
+  {
+    "attempt": {
+      "id": "balance-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "balance-reason-7",
+      "question": "Solve 1*x+x+23=29",
+      "answer": "x=29/2",
+      "steps": [
+        "2*x=29",
+        "x=29/2"
+      ],
+      "explanation": "I changed the expression on the left but preserved the original total on the right.",
+      "label": "balance",
+      "correct_answer": "x=3",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.6462465146900271,
+      0.11871811849167825,
+      0.01312877934526019,
+      0.18351519900613006,
+      0.005131399739131544,
+      0.013475501349567976,
+      0.01978448737820476
+    ]
+  },
+  {
+    "attempt": {
+      "id": "correct-07-00",
+      "family_id": "family-7",
+      "problem_family": "form-7",
+      "reasoning_family": "correct-distribution-reason-7",
+      "question": "Simplify (2*x + 23)*2",
+      "answer": "4*x + 46",
+      "steps": [
+        "4*x + 46"
+      ],
+      "explanation": "I apply the factor to every piece before combining the results.",
+      "label": "correct",
+      "correct_answer": "4*x + 46",
+      "provenance": "generated_from_authored_template",
+      "review_status": "symbolically_checked; peer_review_pending",
+      "split": "validation"
+    },
+    "probabilities": [
+      0.018067137886410886,
+      0.5426891480975727,
+      0.3394437230182907,
+      0.028380416754411594,
+      0.010417894832334396,
+      0.010108877362365277,
+      0.05089280204861436
+    ]
+  }
+]
