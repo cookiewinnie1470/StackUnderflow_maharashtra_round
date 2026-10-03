@@ -1,0 +1,598 @@
+[
+  {
+    "id": "distribution-plain",
+    "expected": "distribution",
+    "attempt": {
+      "id": "distribution-plain",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 4*(x+3)",
+      "expression": "4*(x+3)",
+      "answer": "4x+3",
+      "steps": [
+        "4*x+3"
+      ],
+      "explanation": "Four goes with x; I keep the three as written.",
+      "probes": []
+    }
+  },
+  {
+    "id": "distribution-reordered",
+    "expected": "distribution",
+    "attempt": {
+      "id": "distribution-reordered",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify (5+x)*3",
+      "expression": "(5+x)*3",
+      "answer": "5+3x",
+      "steps": [
+        "5+3*x"
+      ],
+      "explanation": "I used three on the letter and brought the five over without multiplying it.",
+      "probes": []
+    }
+  },
+  {
+    "id": "distribution-complex",
+    "expected": "distribution",
+    "attempt": {
+      "id": "distribution-complex",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2*(3*x+4)",
+      "expression": "2*(3*x+4)",
+      "answer": "6x+4",
+      "steps": [
+        "2*3*x+4",
+        "6x+4"
+      ],
+      "explanation": "I times the coefficient by two but the extra four is not part of that multiplication.",
+      "probes": []
+    }
+  },
+  {
+    "id": "product-pair-a",
+    "expected": "negative_product",
+    "attempt": {
+      "id": "product-pair-a",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -3*(x-4)",
+      "expression": "-3*(x-4)",
+      "answer": "-3x-12",
+      "steps": [
+        "(-3)*x+(-3)*(-4)",
+        "-3x-12"
+      ],
+      "explanation": "I times minus three by each term. Minus three times minus four is minus twelve in my rule.",
+      "probes": []
+    }
+  },
+  {
+    "id": "product-short",
+    "expected": "negative_product",
+    "attempt": {
+      "id": "product-short",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify (-4)*(x-2)",
+      "expression": "(-4)*(x-2)",
+      "answer": "-4x-8",
+      "steps": [
+        "-4*x+(-4)*(-2)",
+        "-4x-8"
+      ],
+      "explanation": "The constant is below zero because both multiplied numbers are below zero.",
+      "probes": []
+    }
+  },
+  {
+    "id": "product-typo",
+    "expected": "negative_product",
+    "attempt": {
+      "id": "product-typo",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -5*(x-3)",
+      "expression": "-5*(x-3)",
+      "answer": "-5x-15",
+      "steps": [
+        "(-5)*x+(-5)*(-3)",
+        "-5x-15"
+      ],
+      "explanation": "I multipled every part; two negatives give a negative when you multiply them.",
+      "probes": []
+    }
+  },
+  {
+    "id": "scope-pair-b",
+    "expected": "negative_scope",
+    "attempt": {
+      "id": "scope-pair-b",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -3*(x-4)",
+      "expression": "-3*(x-4)",
+      "answer": "-3x-12",
+      "steps": [
+        "-(3*x-12)",
+        "-3x-12"
+      ],
+      "explanation": "I first made three x minus twelve. The minus out front turns three x negative; twelve keeps its sign.",
+      "probes": []
+    }
+  },
+  {
+    "id": "scope-single",
+    "expected": "negative_scope",
+    "attempt": {
+      "id": "scope-single",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -(x-7)",
+      "expression": "-(x-7)",
+      "answer": "-x-7",
+      "steps": [
+        "-x-7"
+      ],
+      "explanation": "I put the outside minus in front of x only. The minus seven already has a sign.",
+      "probes": []
+    }
+  },
+  {
+    "id": "scope-nested",
+    "expected": "negative_scope",
+    "attempt": {
+      "id": "scope-nested",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -(2*x-8)",
+      "expression": "-(2*x-8)",
+      "answer": "-2x-8",
+      "steps": [
+        "-2x-8"
+      ],
+      "explanation": "Negating the bracket changes the first sign. I copied the remaining part without a sign change.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unlike-plain",
+    "expected": "unlike_terms",
+    "attempt": {
+      "id": "unlike-plain",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 5*x+4",
+      "expression": "5*x+4",
+      "answer": "9x",
+      "steps": [
+        "(5+4)*x",
+        "9x"
+      ],
+      "explanation": "I counted the four as four more x pieces, so there are nine of them.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unlike-reordered",
+    "expected": "unlike_terms",
+    "attempt": {
+      "id": "unlike-reordered",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 7+2*x",
+      "expression": "7+2*x",
+      "answer": "9x",
+      "steps": [
+        "(7+2)*x",
+        "9x"
+      ],
+      "explanation": "The two numbers get added and I keep the variable at the end.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unlike-three",
+    "expected": "unlike_terms",
+    "attempt": {
+      "id": "unlike-three",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2*x+3*x+4",
+      "expression": "2*x+3*x+4",
+      "answer": "9x",
+      "steps": [
+        "5*x+4",
+        "9x"
+      ],
+      "explanation": "After collecting the five x parts I included four plain units in the coefficient.",
+      "probes": []
+    }
+  },
+  {
+    "id": "inverse-plain",
+    "expected": "inverse",
+    "attempt": {
+      "id": "inverse-plain",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve x+4=10",
+      "expression": "x+4=10",
+      "answer": "x=14",
+      "steps": [
+        "x=10+4",
+        "x=14"
+      ],
+      "explanation": "I move four to the right with its plus sign unchanged.",
+      "probes": []
+    }
+  },
+  {
+    "id": "inverse-coefficient",
+    "expected": "inverse",
+    "attempt": {
+      "id": "inverse-coefficient",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve 3*x+5=17",
+      "expression": "3*x+5=17",
+      "answer": "x=22/3",
+      "steps": [
+        "3*x=22",
+        "x=22/3"
+      ],
+      "explanation": "I add five again to undo the plus five, and then divide both sides by three.",
+      "probes": []
+    }
+  },
+  {
+    "id": "inverse-transfer",
+    "expected": "inverse",
+    "attempt": {
+      "id": "inverse-transfer",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve 6+x=15",
+      "expression": "6+x=15",
+      "answer": "x=21",
+      "steps": [
+        "x=15+6",
+        "x=21"
+      ],
+      "explanation": "I transfer the six over while keeping the addition operation.",
+      "probes": []
+    }
+  },
+  {
+    "id": "balance-plain",
+    "expected": "balance",
+    "attempt": {
+      "id": "balance-plain",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve x+4=10",
+      "expression": "x+4=10",
+      "answer": "x=10",
+      "steps": [
+        "x=10"
+      ],
+      "explanation": "I took four off the left, and copied ten on the right without changing it.",
+      "probes": []
+    }
+  },
+  {
+    "id": "balance-coefficient",
+    "expected": "balance",
+    "attempt": {
+      "id": "balance-coefficient",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve 3*x+5=17",
+      "expression": "3*x+5=17",
+      "answer": "x=17/3",
+      "steps": [
+        "3*x=17",
+        "x=17/3"
+      ],
+      "explanation": "Only the side with x needs work. I remove five there and leave seventeen alone.",
+      "probes": []
+    }
+  },
+  {
+    "id": "balance-transfer",
+    "expected": "balance",
+    "attempt": {
+      "id": "balance-transfer",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve 6+x=15",
+      "expression": "6+x=15",
+      "answer": "x=15",
+      "steps": [
+        "x=15"
+      ],
+      "explanation": "Six can be erased from the variable side without a matching change on the other side.",
+      "probes": []
+    }
+  },
+  {
+    "id": "correct-expansion",
+    "expected": "correct",
+    "attempt": {
+      "id": "correct-expansion",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -3*(x-4)",
+      "expression": "-3*(x-4)",
+      "answer": "-3x+12",
+      "steps": [
+        "(-3)*x+(-3)*(-4)",
+        "-3x+12"
+      ],
+      "explanation": "I multiply both terms by negative three. Two negative factors make a positive product.",
+      "probes": []
+    }
+  },
+  {
+    "id": "correct-equality",
+    "expected": "correct",
+    "attempt": {
+      "id": "correct-equality",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve 2*x+5=13",
+      "expression": "2*x+5=13",
+      "answer": "x=4",
+      "steps": [
+        "2*x=8",
+        "x=4"
+      ],
+      "explanation": "Subtract five from each side, then divide each side by two to preserve the equality.",
+      "probes": []
+    }
+  },
+  {
+    "id": "correct-unlike",
+    "expected": "correct",
+    "attempt": {
+      "id": "correct-unlike",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2*x+4+3*x",
+      "expression": "2*x+4+3*x",
+      "answer": "5x+4",
+      "steps": [
+        "5*x+4"
+      ],
+      "explanation": "The terms containing x share their variable part; the constant four remains separate.",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-answer-only",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-answer-only",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -2*(x-3)",
+      "expression": "-2*(x-3)",
+      "answer": "-2x-6",
+      "steps": [],
+      "explanation": "",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-no-reason",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-no-reason",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -2*(x-3)",
+      "expression": "-2*(x-3)",
+      "answer": "-2x-6",
+      "steps": [
+        "-2x-6"
+      ],
+      "explanation": "",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-guess",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-guess",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 3*(x+4)",
+      "expression": "3*(x+4)",
+      "answer": "3x+4",
+      "steps": [
+        "3x+4"
+      ],
+      "explanation": "I guessed.",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-one-sided-answer",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-one-sided-answer",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve x+5=12",
+      "expression": "x+5=12",
+      "answer": "x=12",
+      "steps": [],
+      "explanation": "I do not remember how I decided.",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-lucky",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-lucky",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -2*(x-3)",
+      "expression": "-2*(x-3)",
+      "answer": "-2x+6",
+      "steps": [
+        "-2x-6",
+        "-2x+6"
+      ],
+      "explanation": "I think two negatives multiply to a negative. I then changed the sign because I remembered the answer.",
+      "probes": []
+    }
+  },
+  {
+    "id": "ambiguous-conflict",
+    "expected": "ambiguous",
+    "attempt": {
+      "id": "ambiguous-conflict",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 3*(x+2)",
+      "expression": "3*(x+2)",
+      "answer": "3x+6",
+      "steps": [
+        "3x+6"
+      ],
+      "explanation": "The outside multiplier only affects the first term. I copied a different final answer.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-fractions",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-fractions",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify x/2+x/3",
+      "expression": "x/2+x/3",
+      "answer": "x/5",
+      "steps": [
+        "x/(2+3)",
+        "x/5"
+      ],
+      "explanation": "I keep the top letter and add the bottom numbers when adding fractions.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-reversed-subtraction",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-reversed-subtraction",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 3-8",
+      "expression": "3-8",
+      "answer": "5",
+      "steps": [
+        "8-3",
+        "5"
+      ],
+      "explanation": "I always take the smaller number away from the bigger one, regardless of their order.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-left-to-right",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-left-to-right",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2+3*x",
+      "expression": "2+3*x",
+      "answer": "5x",
+      "steps": [
+        "(2+3)*x",
+        "5x"
+      ],
+      "explanation": "I follow every written operation from left to right, even before multiplication.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-roman-x",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-roman-x",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2*x+3",
+      "expression": "2*x+3",
+      "answer": "23",
+      "steps": [
+        "2*10+3",
+        "23"
+      ],
+      "explanation": "The letter x is the Roman numeral for ten, so I substituted ten.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-negative-addition",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-negative-addition",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify -4-3",
+      "expression": "-4-3",
+      "answer": "7",
+      "steps": [
+        "4+3",
+        "7"
+      ],
+      "explanation": "I remove negative signs and add the sizes because two negatives make a positive.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-decimal",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-decimal",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Simplify 2.4+1.3",
+      "expression": "2.4+1.3",
+      "answer": "37",
+      "steps": [
+        "24+13",
+        "37"
+      ],
+      "explanation": "Decimal points are just separators; I erase them before adding.",
+      "probes": []
+    }
+  },
+  {
+    "id": "unknown-equal-means-add",
+    "expected": "unknown",
+    "attempt": {
+      "id": "unknown-equal-means-add",
+      "createdAt": 0,
+      "problemId": "challenge",
+      "question": "Solve x+4=10",
+      "expression": "x+4=10",
+      "answer": "x=14",
+      "steps": [
+        "x=10+4",
+        "x=14"
+      ],
+      "explanation": "The equals symbol tells me to add all the numbers written in the line.",
+      "probes": []
+    }
+  }
+]

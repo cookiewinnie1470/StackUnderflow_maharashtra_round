@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "distribution-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (2*x + 23)*2",
+    "answer": "4*x + 23",
+    "steps": [
+      "4*x + (23) + 0",
+      "4*x + 23"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "4*x + 46",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (3*x + 24)*3",
+    "answer": "9*x + 24",
+    "steps": [
+      "9*x + (24) + 0",
+      "9*x + 24"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "9*x + 72",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (4*x + 25)*4",
+    "answer": "16*x + 25",
+    "steps": [
+      "16*x + (25) + 0",
+      "16*x + 25"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "16*x + 100",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (2*x + 26)*5",
+    "answer": "10*x + 26",
+    "steps": [
+      "10*x + (26) + 0",
+      "10*x + 26"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "10*x + 130",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (3*x + 27)*6",
+    "answer": "18*x + 27",
+    "steps": [
+      "18*x + (27) + 0",
+      "18*x + 27"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "18*x + 162",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (4*x + 28)*2",
+    "answer": "8*x + 28",
+    "steps": [
+      "8*x + (28) + 0",
+      "8*x + 28"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "8*x + 56",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (2*x + 29)*3",
+    "answer": "6*x + 29",
+    "steps": [
+      "6*x + (29) + 0",
+      "6*x + 29"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "6*x + 87",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (3*x + 30)*4",
+    "answer": "12*x + 30",
+    "steps": [
+      "12*x + (30) + 0",
+      "12*x + 30"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "12*x + 120",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (4*x + 31)*5",
+    "answer": "20*x + 31",
+    "steps": [
+      "20*x + (31) + 0",
+      "20*x + 31"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "20*x + 155",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "distribution-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "distribution-reason-7",
+    "question": "Simplify (2*x + 32)*6",
+    "answer": "12*x + 32",
+    "steps": [
+      "12*x + (32) + 0",
+      "12*x + 32"
+    ],
+    "explanation": "I gave the multiplier to x but carried the other term across without changing it.",
+    "label": "distribution",
+    "correct_answer": "12*x + 192",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (2*x - 23)*(-2)",
+    "answer": "-4*x - 46",
+    "steps": [
+      "(-2)*(2*x)+(-2)*(-23)+0",
+      "-4*x - 46"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "46 - 4*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (3*x - 24)*(-3)",
+    "answer": "-9*x - 72",
+    "steps": [
+      "(-3)*(3*x)+(-3)*(-24)+0",
+      "-9*x - 72"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "72 - 9*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (4*x - 25)*(-4)",
+    "answer": "-16*x - 100",
+    "steps": [
+      "(-4)*(4*x)+(-4)*(-25)+0",
+      "-16*x - 100"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "100 - 16*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (2*x - 26)*(-5)",
+    "answer": "-10*x - 130",
+    "steps": [
+      "(-5)*(2*x)+(-5)*(-26)+0",
+      "-10*x - 130"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "130 - 10*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (3*x - 27)*(-6)",
+    "answer": "-18*x - 162",
+    "steps": [
+      "(-6)*(3*x)+(-6)*(-27)+0",
+      "-18*x - 162"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "162 - 18*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (4*x - 28)*(-2)",
+    "answer": "-8*x - 56",
+    "steps": [
+      "(-2)*(4*x)+(-2)*(-28)+0",
+      "-8*x - 56"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "56 - 8*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (2*x - 29)*(-3)",
+    "answer": "-6*x - 87",
+    "steps": [
+      "(-3)*(2*x)+(-3)*(-29)+0",
+      "-6*x - 87"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "87 - 6*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (3*x - 30)*(-4)",
+    "answer": "-12*x - 120",
+    "steps": [
+      "(-4)*(3*x)+(-4)*(-30)+0",
+      "-12*x - 120"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "120 - 12*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (4*x - 31)*(-5)",
+    "answer": "-20*x - 155",
+    "steps": [
+      "(-5)*(4*x)+(-5)*(-31)+0",
+      "-20*x - 155"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "155 - 20*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_product-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_product-reason-7",
+    "question": "Simplify (2*x - 32)*(-6)",
+    "answer": "-12*x - 192",
+    "steps": [
+      "(-6)*(2*x)+(-6)*(-32)+0",
+      "-12*x - 192"
+    ],
+    "explanation": "I expanded both products. Two negative factors produce a negative constant.",
+    "label": "negative_product",
+    "correct_answer": "192 - 12*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (2*x - 23)*(-2)",
+    "answer": "-4*x - 46",
+    "steps": [
+      "-(4*x-46)+0",
+      "-4*x - 46"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "46 - 4*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (3*x - 24)*(-3)",
+    "answer": "-9*x - 72",
+    "steps": [
+      "-(9*x-72)+0",
+      "-9*x - 72"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "72 - 9*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (4*x - 25)*(-4)",
+    "answer": "-16*x - 100",
+    "steps": [
+      "-(16*x-100)+0",
+      "-16*x - 100"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "100 - 16*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (2*x - 26)*(-5)",
+    "answer": "-10*x - 130",
+    "steps": [
+      "-(10*x-130)+0",
+      "-10*x - 130"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "130 - 10*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (3*x - 27)*(-6)",
+    "answer": "-18*x - 162",
+    "steps": [
+      "-(18*x-162)+0",
+      "-18*x - 162"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "162 - 18*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (4*x - 28)*(-2)",
+    "answer": "-8*x - 56",
+    "steps": [
+      "-(8*x-56)+0",
+      "-8*x - 56"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "56 - 8*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (2*x - 29)*(-3)",
+    "answer": "-6*x - 87",
+    "steps": [
+      "-(6*x-87)+0",
+      "-6*x - 87"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "87 - 6*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (3*x - 30)*(-4)",
+    "answer": "-12*x - 120",
+    "steps": [
+      "-(12*x-120)+0",
+      "-12*x - 120"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "120 - 12*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (4*x - 31)*(-5)",
+    "answer": "-20*x - 155",
+    "steps": [
+      "-(20*x-155)+0",
+      "-20*x - 155"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "155 - 20*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "negative_scope-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "negative_scope-reason-7",
+    "question": "Simplify (2*x - 32)*(-6)",
+    "answer": "-12*x - 192",
+    "steps": [
+      "-(12*x-192)+0",
+      "-12*x - 192"
+    ],
+    "explanation": "Negating a bracket means reversing the first sign, while the remaining signs stay unchanged.",
+    "label": "negative_scope",
+    "correct_answer": "192 - 12*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 2*x+22+1",
+    "answer": "25*x",
+    "steps": [
+      "(2+23)*x",
+      "25*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "2*x + 23",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 3*x+23+1",
+    "answer": "27*x",
+    "steps": [
+      "(3+24)*x",
+      "27*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "3*x + 24",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 4*x+24+1",
+    "answer": "29*x",
+    "steps": [
+      "(4+25)*x",
+      "29*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "4*x + 25",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 5*x+25+1",
+    "answer": "31*x",
+    "steps": [
+      "(5+26)*x",
+      "31*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "5*x + 26",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 6*x+26+1",
+    "answer": "33*x",
+    "steps": [
+      "(6+27)*x",
+      "33*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "6*x + 27",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 2*x+27+1",
+    "answer": "30*x",
+    "steps": [
+      "(2+28)*x",
+      "30*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "2*x + 28",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 3*x+28+1",
+    "answer": "32*x",
+    "steps": [
+      "(3+29)*x",
+      "32*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "3*x + 29",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 4*x+29+1",
+    "answer": "34*x",
+    "steps": [
+      "(4+30)*x",
+      "34*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "4*x + 30",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 5*x+30+1",
+    "answer": "36*x",
+    "steps": [
+      "(5+31)*x",
+      "36*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "5*x + 31",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "unlike_terms-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "unlike_terms-reason-7",
+    "question": "Simplify 6*x+31+1",
+    "answer": "38*x",
+    "steps": [
+      "(6+32)*x",
+      "38*x"
+    ],
+    "explanation": "I merged the number-only term with the variable term by adding their coefficients.",
+    "label": "unlike_terms",
+    "correct_answer": "6*x + 32",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 1*x+x+23=29",
+    "answer": "x=52/2",
+    "steps": [
+      "2*x=52",
+      "x=52/2"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=3",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 2*x+x+24=36",
+    "answer": "x=60/3",
+    "steps": [
+      "3*x=60",
+      "x=60/3"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=4",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 3*x+x+25=45",
+    "answer": "x=70/4",
+    "steps": [
+      "4*x=70",
+      "x=70/4"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=5",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 4*x+x+26=56",
+    "answer": "x=82/5",
+    "steps": [
+      "5*x=82",
+      "x=82/5"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=6",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 5*x+x+27=69",
+    "answer": "x=96/6",
+    "steps": [
+      "6*x=96",
+      "x=96/6"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=7",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 1*x+x+28=44",
+    "answer": "x=72/2",
+    "steps": [
+      "2*x=72",
+      "x=72/2"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=8",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 2*x+x+29=56",
+    "answer": "x=85/3",
+    "steps": [
+      "3*x=85",
+      "x=85/3"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=9",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 3*x+x+30=70",
+    "answer": "x=100/4",
+    "steps": [
+      "4*x=100",
+      "x=100/4"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=10",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 4*x+x+31=86",
+    "answer": "x=117/5",
+    "steps": [
+      "5*x=117",
+      "x=117/5"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=11",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "inverse-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "inverse-reason-7",
+    "question": "Solve 5*x+x+32=104",
+    "answer": "x=136/6",
+    "steps": [
+      "6*x=136",
+      "x=136/6"
+    ],
+    "explanation": "I thought that reversing plus means using plus again to isolate the variable.",
+    "label": "inverse",
+    "correct_answer": "x=12",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 1*x+x+23=29",
+    "answer": "x=29/2",
+    "steps": [
+      "2*x=29",
+      "x=29/2"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=3",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 2*x+x+24=36",
+    "answer": "x=36/3",
+    "steps": [
+      "3*x=36",
+      "x=36/3"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=4",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 3*x+x+25=45",
+    "answer": "x=45/4",
+    "steps": [
+      "4*x=45",
+      "x=45/4"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=5",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 4*x+x+26=56",
+    "answer": "x=56/5",
+    "steps": [
+      "5*x=56",
+      "x=56/5"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=6",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 5*x+x+27=69",
+    "answer": "x=69/6",
+    "steps": [
+      "6*x=69",
+      "x=69/6"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=7",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 1*x+x+28=44",
+    "answer": "x=44/2",
+    "steps": [
+      "2*x=44",
+      "x=44/2"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=8",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 2*x+x+29=56",
+    "answer": "x=56/3",
+    "steps": [
+      "3*x=56",
+      "x=56/3"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=9",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 3*x+x+30=70",
+    "answer": "x=70/4",
+    "steps": [
+      "4*x=70",
+      "x=70/4"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=10",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 4*x+x+31=86",
+    "answer": "x=86/5",
+    "steps": [
+      "5*x=86",
+      "x=86/5"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=11",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "balance-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "balance-reason-7",
+    "question": "Solve 5*x+x+32=104",
+    "answer": "x=104/6",
+    "steps": [
+      "6*x=104",
+      "x=104/6"
+    ],
+    "explanation": "I changed the expression on the left but preserved the original total on the right.",
+    "label": "balance",
+    "correct_answer": "x=12",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-00",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-distribution-reason-7",
+    "question": "Simplify (2*x + 23)*2",
+    "answer": "4*x + 46",
+    "steps": [
+      "4*x + 46"
+    ],
+    "explanation": "I apply the factor to every piece before combining the results.",
+    "label": "correct",
+    "correct_answer": "4*x + 46",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-01",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-negative_product-reason-7",
+    "question": "Simplify (3*x - 24)*(-3)",
+    "answer": "72 - 9*x",
+    "steps": [
+      "72 - 9*x"
+    ],
+    "explanation": "I used both products, with a positive constant from multiplying the two negatives.",
+    "label": "correct",
+    "correct_answer": "72 - 9*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-02",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-negative_scope-reason-7",
+    "question": "Simplify (4*x - 25)*(-4)",
+    "answer": "100 - 16*x",
+    "steps": [
+      "100 - 16*x"
+    ],
+    "explanation": "Negating the entire group gives the opposite of each term.",
+    "label": "correct",
+    "correct_answer": "100 - 16*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-03",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-unlike_terms-reason-7",
+    "question": "Simplify 5*x+25+1",
+    "answer": "5*x + 26",
+    "steps": [
+      "5*x + 26"
+    ],
+    "explanation": "These are unlike terms. I cannot add a constant to the coefficient.",
+    "label": "correct",
+    "correct_answer": "5*x + 26",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-04",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-inverse-reason-7",
+    "question": "Solve 5*x+x+27=69",
+    "answer": "x=7",
+    "steps": [
+      "x=7"
+    ],
+    "explanation": "I use the opposite operation: subtract from both sides, then divide equally.",
+    "label": "correct",
+    "correct_answer": "x=7",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-05",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-balance-reason-7",
+    "question": "Solve 1*x+x+28=44",
+    "answer": "x=8",
+    "steps": [
+      "x=8"
+    ],
+    "explanation": "I preserve balance by making the same change to each expression.",
+    "label": "correct",
+    "correct_answer": "x=8",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-06",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-distribution-reason-7",
+    "question": "Simplify (2*x + 29)*3",
+    "answer": "6*x + 87",
+    "steps": [
+      "6*x + 87"
+    ],
+    "explanation": "I apply the factor to every piece before combining the results.",
+    "label": "correct",
+    "correct_answer": "6*x + 87",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-07",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-negative_product-reason-7",
+    "question": "Simplify (3*x - 30)*(-4)",
+    "answer": "120 - 12*x",
+    "steps": [
+      "120 - 12*x"
+    ],
+    "explanation": "I used both products, with a positive constant from multiplying the two negatives.",
+    "label": "correct",
+    "correct_answer": "120 - 12*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-08",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-negative_scope-reason-7",
+    "question": "Simplify (4*x - 31)*(-5)",
+    "answer": "155 - 20*x",
+    "steps": [
+      "155 - 20*x"
+    ],
+    "explanation": "Negating the entire group gives the opposite of each term.",
+    "label": "correct",
+    "correct_answer": "155 - 20*x",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  },
+  {
+    "id": "correct-07-09",
+    "family_id": "family-7",
+    "problem_family": "form-7",
+    "reasoning_family": "correct-unlike_terms-reason-7",
+    "question": "Simplify 6*x+31+1",
+    "answer": "6*x + 32",
+    "steps": [
+      "6*x + 32"
+    ],
+    "explanation": "These are unlike terms. I cannot add a constant to the coefficient.",
+    "label": "correct",
+    "correct_answer": "6*x + 32",
+    "provenance": "generated_from_authored_template",
+    "review_status": "symbolically_checked; peer_review_pending",
+    "split": "validation"
+  }
+]
